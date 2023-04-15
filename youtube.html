@@ -5,11 +5,7 @@
     <title>YouTube Clone</title>
     <style>
       .thumbnail {
-        border-radius: 150px;
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        object-position: center;
+        display: block;
       }
 
       .search-bar {
@@ -17,11 +13,19 @@
         width: 100px;
         
       }
+
+      .video-title {
+        width: 300px;
+      }
+
     </style>
     <link rel="stylesheet" href="">
   </head>
   <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
     <input class="search-bar" type="text" placeholder="search">
+    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
   </body>
 </html>
