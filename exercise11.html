@@ -3,30 +3,7 @@
 <html>
   <head>
     <title>Exercise 11</title>
-    <style>
-      .grid-11a {
-        display: grid;
-        grid-template-columns: 200px 75px;
-      }
-
-      .grid-11b {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: 50px 1fr 75px;
-      }
-
-      .grid-11c {
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        row-gap: 10px;
-        column-gap: 20px;
-      }
-
-      .grid-11c-child {
-        background-color: lightpink;
-      }
-    </style>
+    <link rel="stylesheet" href="styling/exercise11.css"
   </head>
   <body>
     <div class="grid-11a">
@@ -52,5 +29,52 @@
       <div class="grid-11c-child">col4</div>
     </div>
 
+  <div class="profile-grid">
+    <div class="profile">
+      <img class ="profile-picture" src="https://media.istockphoto.com/id/1345942562/photo/kitten-british-cat-looking-at-camera.jpg?b=1&s=170667a&w=0&k=20&c=wQkssm8ZKJcJZQd0oEO6BL1CVTrK0jaD_3IDuzF2Wqw=">
+      <p class="name">
+        Oliver
+      </p>
+      <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="https://img.rawpixel.com/private/static/images/website/2022-05/ns8230-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=348b2fd5c7adbc576517dae7c32de4aa">
+          <p class="mutual-friends-text">
+            2 mutual friends
+          </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+    <div class="profile">
+      <img class ="profile-picture" src="https://media.istockphoto.com/id/508030340/photo/sunny-cat.jpg?s=612x612&w=0&k=20&c=qkz-Mf32sbJnefRxpB7Fwpcxbp1fozYtJxbQoKvSeGM=">
+      <p class="name">
+        Mimi
+      </p>
+      <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="https://img.rawpixel.com/private/static/images/website/2022-05/ns8230-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=348b2fd5c7adbc576517dae7c32de4aa">
+          <p class="mutual-friends-text">
+            3 mutual friends
+          </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+    <div class="profile">
+      <img class ="profile-picture" src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*">
+      <p class="name">
+        Rex
+      </p>
+      <div class="mutual-friends-row">
+          <img class="mutual-friends-picture" src="https://img.rawpixel.com/private/static/images/website/2022-05/ns8230-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=348b2fd5c7adbc576517dae7c32de4aa">
+          <p class="mutual-friends-text">
+            4 mutual friends
+          </p>
+      </div>
+      <button class="add-button">
+        Add Friend
+      </button>
+    </div>
+  </div>
   </body>
 </html>
