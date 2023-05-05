@@ -125,7 +125,8 @@
 .tweet {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  width: 400px
+  width: 400px;
+  margin-bottom: 100px;
 }
 
 .tweet-profile-pic img {
@@ -174,6 +175,65 @@ span {
 }
 
 .tweet-link-website {
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+.tweet-flexbox {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 400px;
+}
+
+.tweet-profile-pic-flexbox img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.tweet-content-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.tweet-text-flexbox {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.tweet-link-flexbox {
+  display: flex;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 15px;
+  width: 340px;
+  background-color: rgb(255, 255, 255);
+  height: 90px;
+}
+
+.tweet-link-picture-flexbox {
+  background-color: rgb(227, 227, 227);
+  width: 170px;
+  border-radius: 13px 0px 0px 13px;
+
+}
+
+.tweet-link-block-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.tweet-link-website-flexbox {
   padding-bottom: 5px;
 }
 
