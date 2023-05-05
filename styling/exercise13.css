@@ -61,6 +61,7 @@
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 50px;
 }
 
 .one-mail-interface {
@@ -120,6 +121,62 @@
 .mail-text {
   color: rgb(137, 136, 136);
 }
+
+.tweet {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px
+}
+
+.tweet-profile-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.tweet-content-block {
+  margin-left: 15px;
+}
+
+.tweet-profile-name {
+  margin-bottom: 5px;
+}
+
+.tweet-text {
+  margin-bottom: 12px;
+}
+
+span {
+  color: rgb(125, 125, 125);
+}
+
+.tweet-link {
+  display: flex;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 15px;
+  width: 340px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.tweet-link-picture {
+  background-color: rgb(227, 227, 227);
+  width: 170px;
+  border-radius: 13px 0px 0px 13px;
+}
+
+.tweet-link-block {
+  display: block;
+  padding-top: 13px;
+  padding-left: 10px;
+  padding-bottom: 13px;
+}
+
+.tweet-link-website {
+  padding-bottom: 5px;
+}
+
 
 
 
